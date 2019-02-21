@@ -3,23 +3,48 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  // www.vanderlanth.io
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+      <div>
+        <div className="cursor" />
+        <div className="cursor-follower" />
+        <div>
+          <img alt="Logo" src="" className="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            John Snow is a passionate Freelance Designer. He mainly designs
+            websites for agencies, start-ups and individuals. He can also take
+            care of the code, sometimes.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+          <div className="spaceship">🚀</div>
+          <ul class="socials">
+            <li class="hover cur">
+              <a href="mailto:ciao@vanderlanth.io" target="_top" class="social">
+                Mail
+              </a>
+            </li>
+            <li className="hover cur">
+              <a href="#" target="_blank" className="social">
+                Dribbble
+              </a>
+            </li>
+            <li className="hover cur">
+              <a href="#" target="_blank" className="social">
+                Github
+              </a>
+            </li>
+            <li className="hover cur">
+              <a href="#" target="_blank" className="social">
+                Codepen
+              </a>
+            </li>
+            <li className="hover cur">
+              <a href="#" target="_blank" className="social">
+                Linkedin
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     );
   }
