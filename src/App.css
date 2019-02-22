@@ -1,8 +1,20 @@
+/* Cormorant_Garamond */
 @font-face {
   font-family: 'cormorant_garamondregular';
   src: url('./assets/fonts/Cormorant_Garamond_webfontkit/cormorantgaramond-regular-webfont.woff2')
       format('woff2'),
     url('./assets/fonts/Cormorant_Garamond_webfontkit/cormorantgaramond-regular-webfont.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Montserrat */
+@font-face {
+  font-family: 'montserratlight';
+  src: url('./assets/fonts/Montserrat_webfontkit/montserrat-light-webfont.woff2')
+      format('woff2'),
+    url('./assets/fonts/Montserrat_webfontkit/montserrat-light-webfont.woff')
       format('woff');
   font-weight: normal;
   font-style: normal;
@@ -42,26 +54,7 @@ p {
   margin-right: 120px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  font-family: 'montserratlight';
+  color: #dcdcdc;
 }
