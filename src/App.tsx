@@ -16,8 +16,10 @@ class App extends Component {
             designs websites for agencies, start-ups and individuals. He can
             also take care of the code, sometimes.
           </p>
-          <div className="spaceship">🚀</div>
-          <ul className="socials">
+          
+          <div className="contact">
+          <div className="rocket">🚀</div>
+          <ul>
             <li className="hover cur">
               <a
                 href="mailto:ciao@vanderlanth.io"
@@ -25,11 +27,6 @@ class App extends Component {
                 className="social"
               >
                 Mail
-              </a>
-            </li>
-            <li className="hover cur">
-              <a href="#" target="_blank" className="social">
-                Dribbble
               </a>
             </li>
             <li className="hover cur">
@@ -48,6 +45,8 @@ class App extends Component {
               </a>
             </li>
           </ul>
+          </div>
+
         </div>
       </div>
     );
