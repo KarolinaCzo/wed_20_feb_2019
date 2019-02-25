@@ -50,7 +50,7 @@ img {
   width: 28px;
   pointer-events: none;
   justify-self: end;
-  opacity: .30;
+  opacity: 0.3;
   margin-right: 5vw;
 }
 
@@ -59,10 +59,11 @@ p {
   font-family: 'cormorant_garamondregular';
   font-size: 2.5rem;
   line-height: 3.8rem;
-  max-width: 1080px;
+  /* max-width: 1080px; */
+  max-width: 1280px;
   margin-left: 7vw;
   margin-right: 10vw;
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 .contact {
@@ -77,7 +78,8 @@ p {
   font-size: 16px;
   /* padding: 20px; */
   opacity: 1;
-  transition: .4s ease opacity .1s;
+  transition: 0.4s ease opacity 0.1s;
+  color: #f5f5f5;
 }
 
 ul {
@@ -95,7 +97,7 @@ ul li {
 
 ul li a {
   text-decoration: none;
-  color: #909090; 
+  color: #909090;
 }
 
 ul li:first-of-type {
