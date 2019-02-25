@@ -28,6 +28,7 @@ html {
   height: 100vh;
   position: fixed;
   background-color: #101010;
+  cursor: url(./assets/cursors/Dot.cur), default;
 }
 
 .page__container {
